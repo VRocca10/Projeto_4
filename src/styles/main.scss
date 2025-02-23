@@ -1,11 +1,13 @@
 @use "variaveis";
 @use "hero";
+@use "seasons"; 
 
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Avenir, sans-serif;
 }
 
 
