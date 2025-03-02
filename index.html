@@ -9,6 +9,19 @@
 </head>
 
 <body>
+    <header class="header">
+        <div class="header__container">
+            <h1>
+                <img class="header__logo" src="./dist/images/logo.jpg" alt="Disney+">
+            </h1>
+            <ul class="header__links">
+                <li class="header__links__item ">
+                    <a href="#" class="button button--secundary text">Assista agora</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
     <section class="hero">
         <div class="hero__content">
             <h1 class="hero__content__branding">
@@ -21,12 +34,12 @@
                 Se sinta mais próximo dos acontecimentos e entenda melhor a história e mensagem de Cristo
             </p>
         </div>
-    </section >
-        
+    </section>
 
     <section class="seasons">
         <nav class="seasons__tabs">
-            <button data-tab-button="1_temporada" class="seasons__tabs__button seasons__tabs__button--is-active">1° Temporada</button>
+            <button data-tab-button="1_temporada" class="seasons__tabs__button seasons__tabs__button--is-active">1°
+                Temporada</button>
             <button data-tab-button="2_temporada" class="seasons__tabs__button">2° Temporada</button>
             <button data-tab-button="3_temporada" class="seasons__tabs__button">3° Temporada</button>
         </nav>
@@ -92,7 +105,57 @@
         </ul>
     </section>
 
-<script src="./src/main.js"></script>
+    <section class="faq">
+        <h2 class="title">Perguntas frequentes</h2>
+        <ul class="faq__questions">
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    O que é The Chosen?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    The Chosen é uma série dramática que retrata a vida de Jesus Cristo através da perspectiva das
+                    pessoas que O conheceram. Diferente de outras produções bíblicas, a série foca no desenvolvimento
+                    dos personagens e suas jornadas pessoais ao encontrarem Jesus.
+                </div>
+            </li>
+            <li class="faq__questions__item ">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Onde posso assistir The Chosen?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    A série está disponível gratuitamente no aplicativo oficial The Chosen, que pode ser baixado para
+                    dispositivos Android e iOS. Além disso, também pode ser encontrada em plataformas de streaming e no
+                    YouTube.
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    The Chosen é fiel à Bíblia?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    Sim, a série busca manter fidelidade ao relato bíblico, mas também utiliza elementos criativos para
+                    aprofundar o contexto histórico e as histórias dos personagens. Os roteiristas consultam teólogos e
+                    estudiosos para garantir precisão teológica e cultural.
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <img class="footer__logo" src="./dist/images/logo.jpg" alt="">
+            <ul class="footer__links">
+                <li class="footer__links__item">
+                    <p class="text">📖 Eu te chamei pelo nome, você é meu. Isaías 43:1</p>
+                    <a class="text--small" href="#">Termos e Direitos reservados</a>
+                    <a class="text--small" href="#">© 2025 *The Chosen Brasil*. Todos os direitos reservados.</a>
+                </li>
+            </ul>
+        </div>
+
+    </footer>
+
+    <script src="./src/main.js"></script>
 </body>
 
 </html>
