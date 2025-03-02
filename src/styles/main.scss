@@ -48,6 +48,10 @@ body {
 }
 .title {
     @include title;
+
+    @media (max-width:768px) {
+        @include title (24px);
+    }
 }
 .title--small {
     @include title(28px);
